@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg , #153677 , #4e085f);
+  }
+  
+  .container {
+    max-width: 80%; 
+    margin: 50px auto;
+    padding: 20px;
+    background: linear-gradient(45deg , #00feba , #5b548a , purple);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+    color: yellow;
+  }
+  
+  .search-container {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .search-box {
+    width: 70%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .search-button {
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .search-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .movie-info {
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.95); /* Semi-transparent white movie info container */
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a shadow effect */
+    max-width: 600px; /* Limit the width of the container */
+    margin: 0 auto; /* Center the container */
+  }
+  
+  .movie-info img {
+    display: block; /* Make the poster image a block element */
+    margin: 0 auto 20px; /* Center the image and add some space below */
+    max-width: 100%; /* Ensure the image doesn't exceed its container */
+  }
+  
+  .movie-info h1 {
+    text-align: center; /* Center the title */
+    margin-bottom: 20px; /* Add space below the title */
+  }
+  
+  .movie-info p {
+    margin-bottom: 8px; /* Add space between paragraphs */
+  }
+  
+  .movie-info p:last-child {
+    margin-bottom: 0; /* Remove space after the last paragraph */
+  }
+  
+  .movie-info p strong {
+    font-weight: bold; /* Make the label text bold */
+  }
+  
+  .movie-info p:first-letter {
+    text-transform: capitalize; /* Capitalize the first letter of the text */
+  }
+  
+  
+  @media (max-width: 500px) {
+    .search-box {
+      max-width: 50%;
+    }
+  }
+  
